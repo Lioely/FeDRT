@@ -1,1 +1,19 @@
+model:
+  params:
+    attn_heads: 8
+    attn_heads_dim: 64
+    attn_times: 4
+    calssific_loss_weight: 5
+    digit_dim: 128
+    drop_out_rating: 0.0
+    embedding_dim_other: 256
+    embedding_dim_struct: 256
+    epoch_changeloss: 60
+    learn_rating: 0.001
+    num_routing: 6
+    other_len: 2321
+    output_dim: 65
+    struct_len: 583
+  target: module.mfe.Mfe
+  task: task1
 
